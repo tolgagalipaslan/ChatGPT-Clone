@@ -1,6 +1,6 @@
 export const fetchResponse = async(chat)=>{
     try {
-        const response = await fetch('http://localhost:8080/',{
+        const response = await fetch('https://chatgpt-clone-backend-wsbp.onrender.com',{
             method:'POST',
             headers:{
                 "Content-Type":"application/json"
