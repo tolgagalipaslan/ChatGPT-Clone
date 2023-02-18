@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Eudoxus Sans",sans-serif;
+    scroll-behavior: smooth;
+}
+
+.chat-wrapper::-webkit-scrollbar {
+    background-color: #76767c;
+    width: 10px;
+   }
+ .chat-wrapper::-webkit-scrollbar-thumb {
+     background: #1a1a1c;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+ }
