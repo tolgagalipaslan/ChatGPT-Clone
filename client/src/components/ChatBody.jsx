@@ -73,7 +73,7 @@ const ChatBody = ({chat,load}) => {
        {/* YAZI */}
        <div className="relative flex w-[calc(100%-50px)] flex-col gap-3 md:gap- lg:w-[calc(100%-115px)]">
          <div className="flex flex-grow-0 flex-col gap-1">
-           <div className="min-h-[20px] flex items-start gap-1 whitespace-pre-wrap">is Typing <span className="transition animate-bounce ">.</span><span className="transition animate-bounce animation-delay-3000  ">.</span><span className="transition animate-bounce  animation-delay-5000">.</span>
+           <div className="min-h-[20px] flex items-start gap-1 whitespace-pre-wrap">is Typing <span className="transition animate-bounce ">.</span><span className="transition animate-bounce animation-delay-100  ">.</span><span className="transition animate-bounce  animation-delay-150">.</span>
            </div>
          
          </div>
